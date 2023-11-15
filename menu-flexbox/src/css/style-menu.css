@@ -1,0 +1,53 @@
+body{
+    font-family: 'Public Sans', sans-serif; 
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;   
+}
+
+.logo .name-logo{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu .menu-items a{
+    font-size:15px;
+    padding: 10px 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.menu .menu-items a:hover{
+    background-color: #5BC241;
+    color: white;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.6);
+}
+
+.menu .btn-register a{ 
+    background-color: #5BC241;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .btn-register a:hover{
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.6);
+}

@@ -1,0 +1,30 @@
+@media(max-width:768px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin: 50px 85px 100px 75px;
+    }
+
+    .logo .name-logo{
+        font-size: 40px;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap:50px;
+        margin-bottom: 80px;
+    }
+
+    .menu .menu-items a{
+        font-size: 40px;
+        padding:15px 40px;
+    }
+
+    .menu .btn-register a{
+        font-size: 18px;
+        padding: 15px 20px;
+        
+    }
+}

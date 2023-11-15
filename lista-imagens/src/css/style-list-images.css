@@ -1,0 +1,39 @@
+.container{
+    margin:129px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container .bloco-quadros{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .quadro{
+    position: relative;
+}
+
+.container .quadro .info-quadro{
+    position: absolute;
+    bottom: 68px;
+    left: 25px;
+    color: white;
+}
+
+.container .quadro .info-quadro .nome-quadro{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.container .quadro .info-quadro .autor-quadro{
+    font-size: 17px;
+    font-weight: 300;
+}
